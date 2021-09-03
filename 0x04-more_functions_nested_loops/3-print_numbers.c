@@ -10,7 +10,7 @@ void print_numbers(void)
 {
 for (int i = 0; i <= 9; i++)
 {
-printf("%d", i);
+putchar(i + '0');
 }
-printf("$\n");
+putchar('\n');
 }
