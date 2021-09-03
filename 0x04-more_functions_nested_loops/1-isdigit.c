@@ -4,8 +4,8 @@
 
 /**
  *  _isdigit - checks for a digit
- *
- * Return: 1 if c is a digit
+ * @c: its mine damnit
+ * Return:1 if c is a digit
  */
 int _isdigit(int c)
 {
