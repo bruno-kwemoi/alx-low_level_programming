@@ -1,7 +1,7 @@
 /**
  * swap_int - swaps numbers
- *@a - pointer
- *@b - pointer
+ *@*a - pointer
+ *@*b - pointer
  *@c - integer
  * Return: Always 0.
  */
