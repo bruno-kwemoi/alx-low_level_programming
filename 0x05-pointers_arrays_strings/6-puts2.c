@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *put2 - prints even characters
+ *puts2 - prints even characters
  *@str: pointer
  *RETURN: Always 0.
  */
