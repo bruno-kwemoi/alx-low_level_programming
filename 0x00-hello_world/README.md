@@ -1,2 +1,2 @@
-#Introduction
-this is a venture into the low level programming languages
+#0x00-hello_world
+this is a series of programs I did on introduction to c programming language
