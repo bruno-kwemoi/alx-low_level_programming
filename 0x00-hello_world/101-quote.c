@@ -1,15 +1,14 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - prints to string
- * Description: Prints "and that piece of art is useful.." without puts
+ * Description: Prints to the standard error
  * Return: 1
  */
 
 int main(void)
 {
-fprintf
-	(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-
-return (1);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 60);
+	return (1);
 }
