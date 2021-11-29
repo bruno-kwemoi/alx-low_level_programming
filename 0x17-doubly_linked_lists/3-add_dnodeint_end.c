@@ -1,10 +1,10 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- *
- *
- *
- *
+ * add_dnodeint_end - adds a node at the end
+ * @head: pointer to first node of list
+ * @n: data for the node
+ * Return: address to the node
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
@@ -32,5 +32,5 @@ trav = trav->next;
 temp->prev = trav;
 trav->next = temp;
 }
-return(*head);
+return (*head);
 }
