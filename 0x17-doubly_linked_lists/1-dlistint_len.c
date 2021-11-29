@@ -14,5 +14,5 @@ while (temp != NULL)
 i++;
 temp = temp->next;
 }
-return(i);
+return (i);
 }
