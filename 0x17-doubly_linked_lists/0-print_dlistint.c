@@ -7,14 +7,14 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-  const struct dlistint_s *temp = h;
-  int i = 0;
+const struct dlistint_s *temp = h;
+int i = 0;
 
-  while (temp != NULL)
-    {
-      printf("%d\n", temp->n);
-      i++;
-      temp = temp->next;
-    }
-  return (i);
+while (temp != NULL)
+{
+printf("%d\n", temp->n);
+i++;
+temp = temp->next;
+}
+return (i);
 }
