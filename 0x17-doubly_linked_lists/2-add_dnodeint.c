@@ -17,7 +17,6 @@ return (NULL);
 else
 {
 temp->n = n;
-temp->prev = NULL;
 temp->next = *head;
 *head = temp;
 return (*head);
